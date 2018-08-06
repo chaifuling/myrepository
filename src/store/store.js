@@ -3,7 +3,7 @@ import {createStore,combineReducers,applyMiddleware } from "redux";
 
 import homeReducers from "./reducers/home/homeReducers";
 import commonRedure from "./reducers/commonReducers/commonRedure"
-//这个是用来处理异步的action
+//这个是用来处理异步的acti
 import reduxpromisemiddleware from "redux-promise-middleware";
 let reducer = combineReducers({
     homeReducers,
