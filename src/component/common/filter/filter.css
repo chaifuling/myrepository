@@ -1,0 +1,15 @@
+#filter{
+    width:100%;
+    height: .8rem;   
+}
+#filter>ul{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#filter>ul>li{
+   text-align: center;
+   font-size: .26rem;
+}
